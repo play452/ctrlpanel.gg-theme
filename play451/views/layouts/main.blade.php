@@ -342,7 +342,7 @@
                             </a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item" style="background-color: transparent;">
                             <a href="{{ route('admin.partners.index') }}"
                                class="nav-link @if (Request::routeIs('admin.partners.*')) active @endif">
                                 <i class="nav-icon fas fa-handshake"></i>
@@ -371,7 +371,7 @@
 
                         <li class="nav-header">{{ __('Other') }}</li>
 
-                        <li class="nav-item">
+                        <li class="nav-item" style="background-color: transparent;">
                             <a href="{{ route('admin.usefullinks.index') }}"
                                class="nav-link @if (Request::routeIs('admin.usefullinks.*')) active @endif">
                                 <i class="nav-icon fas fa-link"></i>
@@ -400,7 +400,7 @@
                             </a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item" style="background-color: transparent;"">
                             <a href="{{ route('admin.activitylogs.index') }}"
                                class="nav-link @if (Request::routeIs('admin.activitylogs.*')) active @endif">
                                 <i class="nav-icon fas fa-clipboard-list"></i>

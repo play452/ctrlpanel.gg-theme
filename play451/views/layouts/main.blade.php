@@ -418,7 +418,7 @@
 
     <!-- Content Wrapper. Contains page content -->
 
-    <div class="content-wrapper">
+    <div class="content-wrapper" style="height: auto; background-image: url('https://us.123rf.com/450wm/forplayday/forplayday1710/forplayday171000058/88563435-black-hole-abstract-space-wallpaper-universe-filled-with-stars-galaxies-and-planets-elements-of-this.jpg'); background-size: cover;">
 
         @if (!Auth::user()->hasVerifiedEmail())
             @if (Auth::user()->created_at->diffInHours(now(), false) > 1)
@@ -441,7 +441,7 @@
         <strong>Copyright &copy; 2021-{{ date('Y') }} <a
                 href="{{ url('/') }}">{{ env('APP_NAME', 'Laravel') }}</a>.</strong>
         All rights
-        reserved. Powered by <a href="https://ctrlpanel.gg">CtrlPanel</a>. | Theme by <a href="https://2icecube.de/cpgg">2IceCube</a>
+        reserved. Powered by <a href="https://ctrlpanel.gg">CtrlPanel</a>. | Theme by <a href="https://github.com/play452">play451</a>
         @if (!str_contains(config('BRANCHNAME'), 'main') && !str_contains(config('BRANCHNAME'), 'unknown'))
             Version <b>{{ config('app')['version'] }} - {{ config('BRANCHNAME') }}</b>
         @endif

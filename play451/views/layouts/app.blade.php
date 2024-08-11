@@ -58,7 +58,7 @@
         title: '{{ Session::get('success') }}',
         position: 'top-end',
         showConfirmButton: false,
-        background: '#343a40',
+        background: 'red',
         toast: true,
         timer: 3000,
         timerProgressBar: true,
